@@ -17,5 +17,5 @@ class TestFunny(unittest.TestCase):
         self.assertEqual(funnyString("ljvnsljgljsllkdjkdshgsdlldgvnwerotuouoojlswljljgisjlolbhhosdhinbvywjejsid"), 'Not Funny')
 
     def test_verylong_string(self):
-        self.assertEqual(funnyString("skibidigreaihfhihhdlnbritainenlianffantansieoofhouhhnkddsupersjjfusnldjfinlosnjustjutsukaisensfjsjuvhkhudjnhksheroacademiafjdojolnansfbonepuchmanfjsjhfanimeeplodesjlsjfhloajvkhdjfflacalllmeabyyuasnamelkjfkdivjlv;dofjdjllrigjdlfgjl"), 'Funny')
+        self.assertEqual(funnyString("skibidigreaihfhihhdlnbritainenlianffantansieoofhouhhnkddsupersjjfusnldjfinlosnjustjutsukaisensfjsjuvhkhudjnhksheroacademiafjdojolnansfbonepuchmanfjsjhfanimeeplodesjlsjfhloajvkhdjfflacalllmeabyyuasnamelkjfkdivjlv;dofjdjllrigjdlfgjlh"), 'Not Funny')
 

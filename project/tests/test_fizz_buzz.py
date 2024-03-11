@@ -12,10 +12,16 @@ class FizzBuzzTest(unittest.TestCase):
         Fizz_Buzz = FizzBuzz(x)
         self.assertTrue(Fizz_Buzz)
     
-    def test_x_equal_5_is_Buzz(self):
-        x = 5
+    def test_x_equal_15_is_Fizz(self):
+        x = 15
         Fizz_Buzz = FizzBuzz(x)
         self.assertTrue(Fizz_Buzz)
+    
+    def test_x_equal_10_is_Buzz(self):
+        x = 10
+        Fizz_Buzz = FizzBuzz(x)
+        self.assertTrue(Fizz_Buzz)
+
 
 
 
